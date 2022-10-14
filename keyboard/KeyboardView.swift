@@ -46,12 +46,38 @@ struct KeyboardButton: ButtonStyle {
         }
     }
     
+    var shadowColor: Color {
+        if accessory {
+            switch colorScheme {
+            case .dark:
+                return Color(red: 37.0/255.0, green: 37.0/255.0, blue: 37.0/255.0)
+            case .light:
+                return Color(red: 151.0/255.0, green: 154.0/255.0, blue: 161.0/255.0)
+            @unknown default:
+                return Color(UIColor.black)
+            }
+        } else {
+            switch colorScheme {
+            case .dark:
+                return Color(red: 33.0/255.0, green: 33.0/255.0, blue: 33.0/255.0)
+            case .light:
+                return Color(red: 172.0/255.0, green: 173.0/255.0, blue: 176.0/255.0)
+            @unknown default:
+                return .black
+            }
+        }
+    }
+    
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
             .background(backgroundColor)
             .foregroundColor(Color(UIColor.label))
             .clipShape(RoundedRectangle(cornerRadius: 8))
-            .shadow(radius: 3.0, y: 3)
+            .background {
+                RoundedRectangle(cornerRadius: 8)
+                    .fill(configuration.isPressed ? shadowColor.opacity(0.8) : shadowColor)
+                    .offset(y: configuration.isPressed ? (accessory ? 1.5 : 1) : 1.5)
+            }
     }
 }
 
@@ -63,6 +89,7 @@ struct KeyboardView: View {
     @State var text = "k"
         
     @AppStorage("keyboardOptions", store: .init(suiteName: "group.com.twodayslate.k")) var textOptions = DEFAULT_KEYBOARD_OPTIONS
+    @AppStorage("showHideKeyboard", store: .init(suiteName: "group.com.twodayslate.k")) var showHideKeyboard = false
     
     @Environment(\.colorScheme) var colorScheme
     
@@ -97,7 +124,38 @@ struct KeyboardView: View {
                             }
                         }
                         .padding(.horizontal, 4)
+                        
                     }
+                    .mask {
+                        GeometryReader { reader in
+                            let gradientSize = 4 / max(10, reader.size.width)
+                            LinearGradient(
+                                stops: [
+                                    .init(color: .black.opacity(0.0), location: 0.0),
+                                    .init(color: .black, location: gradientSize),
+                                    .init(color: .black, location: 1.0 - gradientSize),
+                                    .init(color: .black.opacity(0.0), location: 1.0),
+                                ],
+                                startPoint: .leading,
+                                endPoint: .trailing
+                            )
+                        }
+                    }
+                
+                if showHideKeyboard {
+                    Button {
+                        parent.dismissKeyboard()
+                    } label: {
+                        Image(systemName: "globe")
+                            .opacity(0.0)
+                            .overlay {
+                                Image(systemName: "keyboard.chevron.compact.down")
+                                    .foregroundColor(Color(UIColor.label))
+                            }
+                            .padding()
+                    }
+                    
+                }
             }
         }
         .background(colorScheme == .dark ? Color(red: 43.0/255.0, green: 43.0/255.0, blue: 43.0/255.0) : Color(red: 210.0/255.0, green: 212.0/255.0, blue: 217.0/255.0))
