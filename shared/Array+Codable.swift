@@ -23,3 +23,5 @@ extension Array: RawRepresentable where Element: Codable {
 
 public let DEFAULT_KEYBOARD_OPTIONS = [
     "k", "k.", "K", "K.", "Okay", "Okay."]
+
+let DEFAULT_WORDLIST_BAR_ITEMS: [WordListBarItem] = [.inputModeSwitchKey, .wordList]

@@ -7,6 +7,7 @@
 
 import UIKit
 import SwiftUI
+import AudioToolbox
 
 class KeyboardViewController: UIInputViewController {
     
@@ -36,9 +37,6 @@ class KeyboardViewController: UIInputViewController {
             rootView:
                 KeyboardView(
                     parent: self,
-                    action: { text in
-                        self.textDocumentProxy.insertText(text)
-                    },
                     needsInputModeSwitchKey: .init(get: {
                         self.needsInputModeSwitchKeyWrapper
                     }, set: { _ in

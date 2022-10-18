@@ -10,6 +10,23 @@
 		F615B8AC28F7DAA000FC4730 /* Array+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8AB28F7DAA000FC4730 /* Array+Codable.swift */; };
 		F615B8AD28F7DAF600FC4730 /* Array+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8AB28F7DAA000FC4730 /* Array+Codable.swift */; };
 		F615B8AF28F7DBEE00FC4730 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8AE28F7DBEE00FC4730 /* SettingsView.swift */; };
+		F615B8BC28FDDA9C00FC4730 /* Shape+strokeFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8BB28FDDA9C00FC4730 /* Shape+strokeFill.swift */; };
+		F615B8BD28FDDAAE00FC4730 /* Shape+strokeFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8BB28FDDA9C00FC4730 /* Shape+strokeFill.swift */; };
+		F615B8BF28FDDB8500FC4730 /* KeyboardButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8BE28FDDB8500FC4730 /* KeyboardButtonStyle.swift */; };
+		F615B8C028FDDB8C00FC4730 /* KeyboardButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8BE28FDDB8500FC4730 /* KeyboardButtonStyle.swift */; };
+		F615B8C228FDE06800FC4730 /* AccessoryBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8C128FDE06800FC4730 /* AccessoryBarItem.swift */; };
+		F615B8C328FDE09A00FC4730 /* AccessoryBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8C128FDE06800FC4730 /* AccessoryBarItem.swift */; };
+		F615B8C528FDED8900FC4730 /* AccessoryBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8C428FDED8900FC4730 /* AccessoryBarView.swift */; };
+		F615B8C728FDEF3100FC4730 /* WordListBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8C628FDEF3100FC4730 /* WordListBarItem.swift */; };
+		F615B8C828FDF01100FC4730 /* WordListBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8C628FDEF3100FC4730 /* WordListBarItem.swift */; };
+		F615B8CB28FDF46700FC4730 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8CA28FDF46700FC4730 /* Position.swift */; };
+		F615B8CC28FDF54700FC4730 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8CA28FDF46700FC4730 /* Position.swift */; };
+		F615B8CE28FDF67000FC4730 /* WordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8CD28FDF67000FC4730 /* WordListView.swift */; };
+		F615B8D028FE253D00FC4730 /* WordListBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8CF28FE253D00FC4730 /* WordListBarStyle.swift */; };
+		F615B8D428FE257700FC4730 /* WordListBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8CF28FE253D00FC4730 /* WordListBarStyle.swift */; };
+		F615B8D628FE5D4100FC4730 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8D528FE5D4100FC4730 /* Audio.swift */; };
+		F615B8D828FE603000FC4730 /* UIImpactFeedbackGenerator.FeedbackStyle+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8D728FE603000FC4730 /* UIImpactFeedbackGenerator.FeedbackStyle+Codable.swift */; };
+		F615B8D928FE610E00FC4730 /* UIImpactFeedbackGenerator.FeedbackStyle+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F615B8D728FE603000FC4730 /* UIImpactFeedbackGenerator.FeedbackStyle+Codable.swift */; };
 		F6DE778528F7B96400E6F79A /* kApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE778428F7B96400E6F79A /* kApp.swift */; };
 		F6DE778728F7B96400E6F79A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE778628F7B96400E6F79A /* ContentView.swift */; };
 		F6DE778928F7B96600E6F79A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DE778828F7B96600E6F79A /* Assets.xcassets */; };
@@ -48,6 +65,16 @@
 		F615B8A928F7D6AD00FC4730 /* k.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = k.entitlements; sourceTree = "<group>"; };
 		F615B8AB28F7DAA000FC4730 /* Array+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Codable.swift"; sourceTree = "<group>"; };
 		F615B8AE28F7DBEE00FC4730 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F615B8BB28FDDA9C00FC4730 /* Shape+strokeFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shape+strokeFill.swift"; sourceTree = "<group>"; };
+		F615B8BE28FDDB8500FC4730 /* KeyboardButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButtonStyle.swift; sourceTree = "<group>"; };
+		F615B8C128FDE06800FC4730 /* AccessoryBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryBarItem.swift; sourceTree = "<group>"; };
+		F615B8C428FDED8900FC4730 /* AccessoryBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessoryBarView.swift; sourceTree = "<group>"; };
+		F615B8C628FDEF3100FC4730 /* WordListBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListBarItem.swift; sourceTree = "<group>"; };
+		F615B8CA28FDF46700FC4730 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		F615B8CD28FDF67000FC4730 /* WordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListView.swift; sourceTree = "<group>"; };
+		F615B8CF28FE253D00FC4730 /* WordListBarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListBarStyle.swift; sourceTree = "<group>"; };
+		F615B8D528FE5D4100FC4730 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		F615B8D728FE603000FC4730 /* UIImpactFeedbackGenerator.FeedbackStyle+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImpactFeedbackGenerator.FeedbackStyle+Codable.swift"; sourceTree = "<group>"; };
 		F6DE778128F7B96400E6F79A /* k.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = k.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DE778428F7B96400E6F79A /* kApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kApp.swift; sourceTree = "<group>"; };
 		F6DE778628F7B96400E6F79A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				F615B8AB28F7DAA000FC4730 /* Array+Codable.swift */,
+				F615B8BB28FDDA9C00FC4730 /* Shape+strokeFill.swift */,
+				F615B8BE28FDDB8500FC4730 /* KeyboardButtonStyle.swift */,
+				F615B8C128FDE06800FC4730 /* AccessoryBarItem.swift */,
+				F615B8C628FDEF3100FC4730 /* WordListBarItem.swift */,
+				F615B8CA28FDF46700FC4730 /* Position.swift */,
+				F615B8CF28FE253D00FC4730 /* WordListBarStyle.swift */,
+				F615B8D728FE603000FC4730 /* UIImpactFeedbackGenerator.FeedbackStyle+Codable.swift */,
 			);
 			path = shared;
 			sourceTree = "<group>";
@@ -131,6 +165,9 @@
 				F615B8A828F7D66F00FC4730 /* keyboard.entitlements */,
 				F6DE779828F7BA2E00E6F79A /* KeyboardViewController.swift */,
 				F6DE77A228F7BB6E00E6F79A /* KeyboardView.swift */,
+				F615B8C428FDED8900FC4730 /* AccessoryBarView.swift */,
+				F615B8CD28FDF67000FC4730 /* WordListView.swift */,
+				F615B8D528FE5D4100FC4730 /* Audio.swift */,
 				F6DE779A28F7BA2E00E6F79A /* Info.plist */,
 			);
 			path = keyboard;
@@ -236,10 +273,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F615B8D928FE610E00FC4730 /* UIImpactFeedbackGenerator.FeedbackStyle+Codable.swift in Sources */,
+				F615B8BC28FDDA9C00FC4730 /* Shape+strokeFill.swift in Sources */,
+				F615B8C228FDE06800FC4730 /* AccessoryBarItem.swift in Sources */,
 				F6DE778728F7B96400E6F79A /* ContentView.swift in Sources */,
 				F615B8AF28F7DBEE00FC4730 /* SettingsView.swift in Sources */,
+				F615B8D428FE257700FC4730 /* WordListBarStyle.swift in Sources */,
 				F615B8AC28F7DAA000FC4730 /* Array+Codable.swift in Sources */,
 				F6DE778528F7B96400E6F79A /* kApp.swift in Sources */,
+				F615B8C828FDF01100FC4730 /* WordListBarItem.swift in Sources */,
+				F615B8BF28FDDB8500FC4730 /* KeyboardButtonStyle.swift in Sources */,
+				F615B8CC28FDF54700FC4730 /* Position.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,8 +291,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F615B8D628FE5D4100FC4730 /* Audio.swift in Sources */,
+				F615B8C028FDDB8C00FC4730 /* KeyboardButtonStyle.swift in Sources */,
+				F615B8BD28FDDAAE00FC4730 /* Shape+strokeFill.swift in Sources */,
+				F615B8D828FE603000FC4730 /* UIImpactFeedbackGenerator.FeedbackStyle+Codable.swift in Sources */,
 				F6DE779928F7BA2E00E6F79A /* KeyboardViewController.swift in Sources */,
+				F615B8C328FDE09A00FC4730 /* AccessoryBarItem.swift in Sources */,
+				F615B8D028FE253D00FC4730 /* WordListBarStyle.swift in Sources */,
+				F615B8CB28FDF46700FC4730 /* Position.swift in Sources */,
 				F615B8AD28F7DAF600FC4730 /* Array+Codable.swift in Sources */,
+				F615B8CE28FDF67000FC4730 /* WordListView.swift in Sources */,
+				F615B8C528FDED8900FC4730 /* AccessoryBarView.swift in Sources */,
+				F615B8C728FDEF3100FC4730 /* WordListBarItem.swift in Sources */,
 				F6DE77A328F7BB6E00E6F79A /* KeyboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,7 +440,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = k/k.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"k/Preview Content\"";
 				DEVELOPMENT_TEAM = C6L3992RFB;
 				ENABLE_PREVIEWS = YES;
@@ -401,7 +455,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.k;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -418,7 +472,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = k/k.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"k/Preview Content\"";
 				DEVELOPMENT_TEAM = C6L3992RFB;
 				ENABLE_PREVIEWS = YES;
@@ -433,7 +487,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.k;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -447,7 +501,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = keyboard/keyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = C6L3992RFB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = keyboard/Info.plist;
@@ -458,7 +512,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.k.keyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -473,7 +527,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = keyboard/keyboard.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = C6L3992RFB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = keyboard/Info.plist;
@@ -484,7 +538,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.twodayslate.k.keyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
